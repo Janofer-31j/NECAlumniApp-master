@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Main Menu">
+        <menu>
+        <item android:id="@+id/menu_home" android:title="Home" android:icon="@drawable/ic_home"/>
+        <item android:id="@+id/menu_news" android:title="News" android:icon="@drawable/ic_news"/>
+        <item android:id="@+id/menu_job" android:title="Job and careers" android:icon="@drawable/ic_job"/>
+        <item android:id="@+id/menu_invite_friends" android:title="Invite Friends" android:icon="@drawable/ic_invite"/>
+        <item android:id="@+id/menu_events" android:title="Events" android:icon="@drawable/ic_events"/>
+            <item android:id="@+id/menu_AlumniMembers" android:title="Alumni Members" android:icon="@drawable/ic_alumni"/>
+        <item android:id="@+id/menu_gallery" android:title="Gallery" android:icon="@drawable/ic_gallery"/>
+        <item android:id="@+id/menu_profile" android:title="Profile" android:icon="@drawable/ic_profile"/>
+
+        <item android:id="@+id/menu_logout" android:title="Logout" android:icon="@drawable/ic_logout"/>
+        </menu>
+    </item>
+
+</menu>

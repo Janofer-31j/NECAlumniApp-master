@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.theolympian.alu.RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etFirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:drawableLeft="@drawable/ic_firstname"
+                android:drawablePadding="5dp"
+                android:drawableTint="#919191"
+                android:hint="FirstName"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etBackground"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:drawableLeft="@drawable/ic_lastname"
+                android:drawablePadding="5dp"
+                android:drawableTint="#919191"
+                android:hint="LastName"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:drawableLeft="@drawable/ic_department"
+                android:drawablePadding="5dp"
+                android:drawableTint="#919191"
+                android:hint="Department"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etBatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:drawableLeft="@drawable/ic_batch"
+                android:drawablePadding="5dp"
+                android:drawableTint="#919191"
+                android:hint="Batch"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:drawableLeft="@drawable/ic_course"
+                android:drawablePadding="5dp"
+                android:drawableTint="#919191"
+                android:hint="Course"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:drawableLeft="@drawable/ic_mail"
+                android:drawablePadding="5dp"
+                android:drawableTint="#919191"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/etMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:drawableLeft="@drawable/ic_mobile"
+                android:drawablePadding="5dp"
+                android:drawableTint="#919191"
+                android:hint="Mobile"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:drawableLeft="@drawable/ic_password"
+                android:drawablePadding="5dp"
+                android:drawableTint="#919191"
+                android:hint="Password"
+                android:inputType="numberPassword" />
+
+            <EditText
+                android:id="@+id/etState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:drawableLeft="@drawable/ic_state"
+                android:drawablePadding="5dp"
+                android:drawableTint="#919191"
+                android:hint="State"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:drawableLeft="@drawable/ic_country"
+                android:drawablePadding="5dp"
+                android:drawableTint="#919191"
+                android:hint="Country"
+                android:inputType="textPersonName" />
+
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Register"
+                android:background="@drawable/button_rounded"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

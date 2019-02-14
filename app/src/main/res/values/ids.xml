@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="menu_home" type="id" />
+    <item name="menu_news" type="id" />
+    <item name="menu_job" type="id" />
+    <item name="menu_events" type="id" />
+    <item name="menu_gallery" type="id" />
+    <item name="menu_profile" type="id" />
+    <item name="menu_logout" type="id" />
+</resources>
